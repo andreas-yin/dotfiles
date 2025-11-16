@@ -1,10 +1,14 @@
 # Packages for my Linux laptop hyprland setup
 
-Based on the tutorials by typecraft:
-- Part 1: https://www.youtube.com/watch?v=2CP_9-jCV6A
-- Part 2: https://www.youtube.com/watch?v=KA1jv40q9lQ
-- Part 3: https://www.youtube.com/watch?v=omhJMH9lPPc
+## Tutorials
 
+Based on the tutorials by typecraft:
+Part 1: https://www.youtube.com/watch?v=2CP_9-jCV6A
+Part 2: https://www.youtube.com/watch?v=KA1jv40q9lQ
+Part 3: https://www.youtube.com/watch?v=omhJMH9lPPc
+
+
+## Install
 
 First install the package manager `yay`.
 
