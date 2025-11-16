@@ -10,7 +10,12 @@ Based on the tutorials by typecraft:
 
 ## Install
 
+### Install yay
+
 First install the package manager `yay`.
+
+
+### Run commands
 
 Run these commands in the given order:
 
@@ -92,3 +97,7 @@ Install tmux plugins
 `stow battery`
 
 `chmod +x ~/dotfiles/battery/.local/bin/battery.sh`
+
+### Restart
+
+Restart Hyprland via `SUPER` + `m`.
