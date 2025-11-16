@@ -88,3 +88,7 @@ Install tmux plugin manager (TPM)
 
 Install tmux plugins
 
+
+`stow battery`
+
+`chmod +x ~/dotfiles/battery/.local/bin/battery.sh`
