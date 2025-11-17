@@ -3,17 +3,16 @@
 ## Tutorials
 
 Based on the tutorials by typecraft:
+
 - Part 1: https://www.youtube.com/watch?v=2CP_9-jCV6A
 - Part 2: https://www.youtube.com/watch?v=KA1jv40q9lQ
 - Part 3: https://www.youtube.com/watch?v=omhJMH9lPPc
-
 
 ## Install
 
 ### Install yay
 
 First install the package manager `yay`.
-
 
 ### Run commands
 
@@ -29,14 +28,11 @@ Run these commands in the given order:
 
 `yay -S tts-font-awesome` (for icons and glyphs, e.g. used by waybar)
 
-
 `stow kitty`
 
 `rm -rf ~/.config/hypr`
 
-
 `cd ~/dotfiles`
-
 
 `stow hyprland`
 
@@ -78,21 +74,19 @@ Run these commands in the given order:
 
 `stow nvim`
 
-`yay -S tmux`
+`yay -S wl-clipboard` (for copy/paste to/from clipboard to work with nvim)
 
+`yay -S tmux`
 
 `cd ~`
 
 Install tmux plugin manager (TPM)
 
-
 `cd ~/dotfiles`
 
 `stow tmux`
 
-
 Install tmux plugins
-
 
 `stow battery`
 
