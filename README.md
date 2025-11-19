@@ -92,6 +92,10 @@ Install tmux plugins
 
 `chmod +x ~/dotfiles/battery/.local/bin/battery.sh`
 
+`stow ssh_agent` (for running SSH agent automatically upon login)
+
+`systemctl enable --user ssh-agent.service`
+
 ### Restart
 
 Restart Hyprland via `SUPER` + `m`.
