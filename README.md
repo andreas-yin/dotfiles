@@ -1,4 +1,4 @@
-# Packages for my Linux laptop hyprland setup
+# My Hyprland setup on Arch Linux
 
 ## Tutorials
 
