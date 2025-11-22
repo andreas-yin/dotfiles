@@ -76,6 +76,8 @@ Run these commands in the given order:
 
 `yay -S wl-clipboard` (for copy/paste to/from clipboard to work with nvim)
 
+`yay -S fzf` (fuzzy finder for lazyvim)
+
 `yay -S tmux`
 
 `cd ~`
