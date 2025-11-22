@@ -40,6 +40,8 @@ Run these commands in the given order:
 
 `stow wofi`
 
+`yay -S network-manager-applet blueman` (for "tray" module in waybar)
+
 `yay -S waybar` (for status bar with Wifi, battery, date information, etc.)
 
 `stow waybar`
