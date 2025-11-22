@@ -1,16 +1,28 @@
 {
   "position": "top",
-  "modules-left": ["hyprland/workspaces"],
-  "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "cpu", "memory", "pulseaudio", "battery", "clock"],
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "hyprland/window"
+  ],
+  "modules-right": [
+    "network",
+    "cpu",
+    "memory",
+    "pulseaudio",
+    "battery",
+    "tray",
+    "clock"
+  ],
   "hyprland/workspaces": {
     "disable-scroll": true,
     "all-outputs": true,
     "warp-on-scroll": false,
     "format": "{name}: {icon} ",
     "format-icons": {
-        "active": "",
-        "default": ""
+      "active": "",
+      "default": ""
     }
   },
   "clock": {
@@ -29,7 +41,13 @@
     "format-plugged": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
     "format-alt": "<span size='13000' foreground='#B1E3AD'>{icon} </span> {time}",
     "format-full": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
-    "format-icons": ["", "", "", "", ""],
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
     "tooltip-format": "{time}"
   },
   "network": {
@@ -43,7 +61,11 @@
     "format": "{icon} {volume}%",
     "format-muted": "",
     "format-icons": {
-        "default": ["", "", " "]
+      "default": [
+        "",
+        "",
+        " "
+      ]
     },
     "on-click": "pavucontrol"
   },
@@ -53,5 +75,9 @@
   },
   "memory": {
     "format": " {}%"
+  },
+  "tray": {
+    "icon-size": 21,
+    "spacing": 10
   }
 }
