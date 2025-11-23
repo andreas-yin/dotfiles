@@ -30,6 +30,8 @@ Run these commands in the given order:
 
 `stow kitty`
 
+`yay -S brightnessctl` (for screen brightness control using hyprland keybindings)
+
 `rm -rf ~/.config/hypr`
 
 `cd ~/dotfiles`
