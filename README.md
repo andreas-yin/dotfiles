@@ -84,6 +84,10 @@ Run these commands in the given order:
 
 `yay -S fzf` (fuzzy finder for lazyvim)
 
+`yay -S ripgrep` (tool for searching current directory for a regex pattern, needed for lazyvim)
+
+`yay -S fd` (program to find entries in filesystem, needed for lazyvim)
+
 `yay -S tmux`
 
 `cd ~`
